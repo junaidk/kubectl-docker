@@ -1,5 +1,5 @@
 #!/bin/sh -xe
-v=v0.15.0-1
+v=v1.0.1-1
 tag=arkadi/kubectl
 tag2=$DEV_REGISTRY/$tag
 docker build -t $tag:$v .
